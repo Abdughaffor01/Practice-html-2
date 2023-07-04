@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.container1 {
+  width: 90%;
+  margin: 0 auto;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  height: 104px;
+  background-color: #0e1c4c;
+  align-items: center;
+  color: white;
+  box-shadow: 0px 0px 10px rgb(120, 118, 118);
+}
+header a {
+  color: white;
+  padding: 42px 30px;
+  font-size: 20px;
+}
+.col {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 40px;
+}
+.main1 {
+  width: 100%;
+  height: 800px;
+  background-color: #0e1c4c;
+}
+.row {
+  color: white;
+  line-height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.col1 img {
+  position: absolute;
+}
+.main2 {
+  width: 100%;
+  height: 800px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+.col3 h1 {
+  padding-bottom: 10px;
+}
+.jj {
+  position: absolute;
+  top: 1380px;
+}
+.main3 {
+  text-align: center;
+  height: 900px;
+  background-color: #f7f8fc;
+  display: flex;
+  align-items: center;
+}
+.main3_col {
+  width: 30%;
+  padding: 50px;
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+.main4 {
+  height: 900px;
+  display: flex;
+  align-items: center;
+}
+.m4_col {
+  color: black;
+  text-align: start;
+}
+.aa a {
+  padding: 5px 20px 30px 20px;
+  border-bottom: 1px solid grey;
+  color: #9799ad;
+}
+.main5 {
+  text-align: center;
+  height: 900px;
+  color: white;
+  display: flex;
+  align-items: center;
+  background-color: #0e1c4c;
+}
+.m5_col {
+  width: 30%;
+  padding: 40px;
+  background-color: #162457;
+  border-radius: 10px;
+  text-align: start;
+  height: 500px;
+}
+.m5_col ul {
+  display: block;
+}
+.m5_col button {
+  width: 100%;
+  color: white;
+  height: 50px;
+  position: relative;
+  background-color: #6a7497;
+  border: 0;
+  border-radius: 10px;
+}
+hr {
+  margin: 20px 0;
+}
+.main6 {
+  text-align: center;
+  height: 500px;
+  color: black;
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+footer {
+  display: flex;
+  align-items: center;
+  height: 400px;padding-top: 80px;
+  background-color: #e0e3e9;
+}
+.fot_col {
+  width: 23%;
+  color: black;
+}
+.fot_col ul {
+  display: block;
+}
+.fot_col a{
+   color: #060a28;
+ }
